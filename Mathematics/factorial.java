@@ -1,6 +1,7 @@
 public class factorial{
 	
 	public static int factorialIter(int num){
+		//Iterative Solution
 		int fact=1;
 		for(int start=2; start<=num; start++){
 			fact*=i;
@@ -9,6 +10,7 @@ public class factorial{
 	}
 
 	public static int factorialRecur(int num){
+		//Recursive Solution
 		if(num==0)
 			return 1;
 		
