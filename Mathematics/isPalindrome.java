@@ -12,7 +12,7 @@ public class isPalindrome(){
 			return (rev==num);
 	}
 
-	public static void main(String){
+	public static void main(String[] args){
 		System.out.println(isPalin(7557))
 	}
 }
